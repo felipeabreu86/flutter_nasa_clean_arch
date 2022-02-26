@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-class SpaceImagesEntity extends Equatable {
-  const SpaceImagesEntity(
+class SpaceMediaEntity extends Equatable {
+  const SpaceMediaEntity(
     this.description,
     this.mediaType,
     this.title,
