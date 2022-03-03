@@ -18,10 +18,11 @@ void main() {
   });
 
   const tSpaceMedia = SpaceMediaEntity(
-    'A given description.',
-    'image',
-    'A given title.',
-    'https://s2.glbimg.com/kPK9SvkROwR1mbhAdf4tazFL2Mo=/e.glbimg.com/og/ed/f/original/2015/08/21/7760841334_0dcd3fd154_o.jpg',
+    description: 'A given description.',
+    mediaType: 'image',
+    title: 'A given title.',
+    mediaUrl:
+        'https://s2.glbimg.com/kPK9SvkROwR1mbhAdf4tazFL2Mo=/e.glbimg.com/og/ed/f/original/2015/08/21/7760841334_0dcd3fd154_o.jpg',
   );
 
   final tDate = DateTime(2022, 02, 26);

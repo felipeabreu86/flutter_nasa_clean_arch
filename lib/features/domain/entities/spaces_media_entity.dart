@@ -1,12 +1,12 @@
 import 'package:equatable/equatable.dart';
 
 class SpaceMediaEntity extends Equatable {
-  const SpaceMediaEntity(
-    this.description,
-    this.mediaType,
-    this.title,
-    this.mediaUrl,
-  );
+  const SpaceMediaEntity({
+    required this.description,
+    required this.mediaType,
+    required this.title,
+    required this.mediaUrl,
+  });
 
   final String description;
   final String mediaType;
@@ -14,10 +14,5 @@ class SpaceMediaEntity extends Equatable {
   final String mediaUrl;
 
   @override
-  List<Object?> get props => [
-        description,
-        mediaType,
-        title,
-        mediaUrl,
-      ];
+  List<Object> get props => [description, mediaType, title, mediaUrl];
 }
