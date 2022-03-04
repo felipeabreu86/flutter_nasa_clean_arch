@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:nasa_clean_arch/features/domain/entities/spaces_media_entity.dart';
 
 class SpaceMediaModel extends SpaceMediaEntity {
@@ -29,7 +27,7 @@ class SpaceMediaModel extends SpaceMediaEntity {
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
       'description': description,
       'mediaType': mediaType,
@@ -38,7 +36,7 @@ class SpaceMediaModel extends SpaceMediaEntity {
     };
   }
 
-  factory SpaceMediaModel.fromMap(Map<String, dynamic> map) {
+  factory SpaceMediaModel.fromJson(Map<String, dynamic> map) {
     return SpaceMediaModel(
       description: map['explanation'] ?? '',
       mediaType: map['media_type'] ?? '',
@@ -46,11 +44,6 @@ class SpaceMediaModel extends SpaceMediaEntity {
       mediaUrl: map['url'] ?? '',
     );
   }
-
-  String toJson() => json.encode(toMap());
-
-  factory SpaceMediaModel.fromJson(String source) =>
-      SpaceMediaModel.fromMap(json.decode(source));
 
   @override
   String toString() {
