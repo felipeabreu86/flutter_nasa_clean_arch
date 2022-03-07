@@ -9,12 +9,12 @@ import 'package:nasa_clean_arch/features/domain/usecases/get_space_media_from_da
 class MockSpaceMediaRepository extends Mock implements ISpaceMediaRepository {}
 
 void main() {
-  late GetSpaceMediaFromDateUseCase usecase;
+  late GetSpaceMediaFromDateUsecase usecase;
   late ISpaceMediaRepository repository;
 
   setUp(() {
     repository = MockSpaceMediaRepository();
-    usecase = GetSpaceMediaFromDateUseCase(repository);
+    usecase = GetSpaceMediaFromDateUsecase(repository);
   });
 
   const tSpaceMedia = SpaceMediaEntity(

@@ -23,7 +23,7 @@ class SpaceMediaModel extends SpaceMediaEntity {
       description: description ?? this.description,
       mediaType: mediaType ?? this.mediaType,
       title: title ?? this.title,
-      mediaUrl: mediaUrl ?? this.mediaUrl,
+      mediaUrl: mediaUrl ?? (this.mediaUrl ?? ''),
     );
   }
 
