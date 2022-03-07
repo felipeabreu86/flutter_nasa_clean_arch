@@ -1,4 +1,4 @@
-# Online Shop App
+# Nasa Clean Architecture
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipeabreu86/nasa_clean_arch/blob/main/LICENSE) 
 
 # Sobre o Projeto
@@ -10,7 +10,7 @@ Este projeto consiste em criar um App que exibe fotos tiradas pela Nasa a partir
 ## Layout Mobile
 <img src="https://github.com/felipeabreu86/nasa_clean_arch/blob/main/assets/screens/picture1.jpeg" height="700" alt="Mobile 1">
 
-<img src="https://github.com/felipeabreu86/nasa_clean_arch/blob/main/assets/screens/picture2.jpeg" height="700" alt="Mobile 2>
+<img src="https://github.com/felipeabreu86/nasa_clean_arch/blob/main/assets/screens/picture2.jpeg" height="700" alt="Mobile 2">
 
 <img src="https://github.com/felipeabreu86/nasa_clean_arch/blob/main/assets/screens/picture3.jpeg" height="700" alt="Mobile 3">
 
