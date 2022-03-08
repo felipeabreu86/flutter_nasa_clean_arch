@@ -6,8 +6,11 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      initialRoute: "/",
-    ).modular();
+    return MaterialApp.router(
+      title: 'Nasa Clean Arch',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      routeInformationParser: Modular.routeInformationParser,
+      routerDelegate: Modular.routerDelegate,
+    );
   }
 }
